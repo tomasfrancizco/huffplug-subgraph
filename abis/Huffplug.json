@@ -1,0 +1,455 @@
+[
+  {
+    "constructor": { "inputs": [] },
+    "functions": {
+      "sqrt": {
+        "name": "sqrt",
+        "inputs": [
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null }
+        ],
+        "outputs": [
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null }
+        ],
+        "constant": false,
+        "state_mutability": "Pure"
+      },
+      "mint": {
+        "name": "mint",
+        "inputs": [
+          { "name": "", "kind": "Address", "internal_type": null },
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null }
+        ],
+        "outputs": [],
+        "constant": false,
+        "state_mutability": "Payable"
+      },
+      "safeTransferFrom": {
+        "name": "safeTransferFrom",
+        "inputs": [
+          { "name": "", "kind": "Address", "internal_type": null },
+          { "name": "", "kind": "Address", "internal_type": null },
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null },
+          { "name": "", "kind": "Bytes", "internal_type": null }
+        ],
+        "outputs": [],
+        "constant": false,
+        "state_mutability": "NonPayable"
+      },
+      "max": {
+        "name": "max",
+        "inputs": [
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null },
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null }
+        ],
+        "outputs": [
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null }
+        ],
+        "constant": false,
+        "state_mutability": "Pure"
+      },
+      "totalMinted": {
+        "name": "totalMinted",
+        "inputs": [],
+        "outputs": [
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null }
+        ],
+        "constant": false,
+        "state_mutability": "View"
+      },
+      "setUri": {
+        "name": "setUri",
+        "inputs": [{ "name": "", "kind": "String", "internal_type": null }],
+        "outputs": [],
+        "constant": false,
+        "state_mutability": "NonPayable"
+      },
+      "ownerOf": {
+        "name": "ownerOf",
+        "inputs": [
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null }
+        ],
+        "outputs": [{ "name": "", "kind": "Address", "internal_type": null }],
+        "constant": false,
+        "state_mutability": "View"
+      },
+      "name": {
+        "name": "name",
+        "inputs": [],
+        "outputs": [{ "name": "", "kind": "String", "internal_type": null }],
+        "constant": false,
+        "state_mutability": "NonPayable"
+      },
+      "transfer": {
+        "name": "transfer",
+        "inputs": [
+          { "name": "", "kind": "Address", "internal_type": null },
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null }
+        ],
+        "outputs": [],
+        "constant": false,
+        "state_mutability": "NonPayable"
+      },
+      "ceilDiv": {
+        "name": "ceilDiv",
+        "inputs": [
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null },
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null }
+        ],
+        "outputs": [
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null }
+        ],
+        "constant": false,
+        "state_mutability": "Pure"
+      },
+      "getApproved": {
+        "name": "getApproved",
+        "inputs": [
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null }
+        ],
+        "outputs": [{ "name": "", "kind": "Address", "internal_type": null }],
+        "constant": false,
+        "state_mutability": "View"
+      },
+      "approve": {
+        "name": "approve",
+        "inputs": [
+          { "name": "", "kind": "Address", "internal_type": null },
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null }
+        ],
+        "outputs": [],
+        "constant": false,
+        "state_mutability": "NonPayable"
+      },
+      "burn": {
+        "name": "burn",
+        "inputs": [
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null }
+        ],
+        "outputs": [],
+        "constant": false,
+        "state_mutability": "NonPayable"
+      },
+      "setOwner": {
+        "name": "setOwner",
+        "inputs": [{ "name": "", "kind": "Address", "internal_type": null }],
+        "outputs": [],
+        "constant": false,
+        "state_mutability": "NonPayable"
+      },
+      "mintWithMerkle": {
+        "name": "mintWithMerkle",
+        "inputs": [
+          {
+            "name": "",
+            "kind": { "Array": [{ "FixedBytes": 32 }, [0]] },
+            "internal_type": null
+          }
+        ],
+        "outputs": [],
+        "constant": false,
+        "state_mutability": "NonPayable"
+      },
+      "min": {
+        "name": "min",
+        "inputs": [
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null },
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null }
+        ],
+        "outputs": [
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null }
+        ],
+        "constant": false,
+        "state_mutability": "Pure"
+      },
+      "tokenURI": {
+        "name": "tokenURI",
+        "inputs": [
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null }
+        ],
+        "outputs": [{ "name": "", "kind": "String", "internal_type": null }],
+        "constant": false,
+        "state_mutability": "NonPayable"
+      },
+      "totalSupply": {
+        "name": "totalSupply",
+        "inputs": [],
+        "outputs": [
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null }
+        ],
+        "constant": false,
+        "state_mutability": "View"
+      },
+      "balanceOf": {
+        "name": "balanceOf",
+        "inputs": [{ "name": "", "kind": "Address", "internal_type": null }],
+        "outputs": [
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null }
+        ],
+        "constant": false,
+        "state_mutability": "View"
+      },
+      "owner": {
+        "name": "owner",
+        "inputs": [],
+        "outputs": [{ "name": "", "kind": "Address", "internal_type": null }],
+        "constant": false,
+        "state_mutability": "View"
+      },
+      "currentDifficulty": {
+        "name": "currentDifficulty",
+        "inputs": [],
+        "outputs": [
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null }
+        ],
+        "constant": false,
+        "state_mutability": "View"
+      },
+      "transferFrom": {
+        "name": "transferFrom",
+        "inputs": [
+          { "name": "", "kind": "Address", "internal_type": null },
+          { "name": "", "kind": "Address", "internal_type": null },
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null }
+        ],
+        "outputs": [],
+        "constant": false,
+        "state_mutability": "NonPayable"
+      },
+      "supportsInterface": {
+        "name": "supportsInterface",
+        "inputs": [
+          { "name": "", "kind": { "FixedBytes": 4 }, "internal_type": null }
+        ],
+        "outputs": [{ "name": "", "kind": "Bool", "internal_type": null }],
+        "constant": false,
+        "state_mutability": "View"
+      },
+      "salt": {
+        "name": "salt",
+        "inputs": [],
+        "outputs": [
+          { "name": "", "kind": { "FixedBytes": 32 }, "internal_type": null }
+        ],
+        "constant": false,
+        "state_mutability": "View"
+      },
+      "getUri": {
+        "name": "getUri",
+        "inputs": [],
+        "outputs": [{ "name": "", "kind": "String", "internal_type": null }],
+        "constant": false,
+        "state_mutability": "NonPayable"
+      },
+      "setContractUri": {
+        "name": "setContractUri",
+        "inputs": [{ "name": "", "kind": "String", "internal_type": null }],
+        "outputs": [],
+        "constant": false,
+        "state_mutability": "NonPayable"
+      },
+      "symbol": {
+        "name": "symbol",
+        "inputs": [],
+        "outputs": [{ "name": "", "kind": "String", "internal_type": null }],
+        "constant": false,
+        "state_mutability": "NonPayable"
+      },
+      "isApprovedForAll": {
+        "name": "isApprovedForAll",
+        "inputs": [
+          { "name": "", "kind": "Address", "internal_type": null },
+          { "name": "", "kind": "Address", "internal_type": null }
+        ],
+        "outputs": [{ "name": "", "kind": "Bool", "internal_type": null }],
+        "constant": false,
+        "state_mutability": "View"
+      },
+      "contractURI": {
+        "name": "contractURI",
+        "inputs": [],
+        "outputs": [{ "name": "", "kind": "String", "internal_type": null }],
+        "constant": false,
+        "state_mutability": "View"
+      },
+      "claimed": {
+        "name": "claimed",
+        "inputs": [{ "name": "", "kind": "Address", "internal_type": null }],
+        "outputs": [{ "name": "", "kind": "Bool", "internal_type": null }],
+        "constant": false,
+        "state_mutability": "View"
+      },
+      "setApprovalForAll": {
+        "name": "setApprovalForAll",
+        "inputs": [
+          { "name": "", "kind": "Address", "internal_type": null },
+          { "name": "", "kind": "Bool", "internal_type": null }
+        ],
+        "outputs": [],
+        "constant": false,
+        "state_mutability": "NonPayable"
+      },
+      "average": {
+        "name": "average",
+        "inputs": [
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null },
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null }
+        ],
+        "outputs": [
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null }
+        ],
+        "constant": false,
+        "state_mutability": "Pure"
+      }
+    },
+    "events": {
+      "Approval": {
+        "name": "Approval",
+        "inputs": [
+          { "name": "", "kind": "Address", "indexed": false },
+          { "name": "", "kind": "Address", "indexed": false },
+          { "name": "", "kind": { "Uint": 256 }, "indexed": false }
+        ],
+        "anonymous": false
+      },
+      "ApprovalForAll": {
+        "name": "ApprovalForAll",
+        "inputs": [
+          { "name": "", "kind": "Address", "indexed": false },
+          { "name": "", "kind": "Address", "indexed": false },
+          { "name": "", "kind": "Bool", "indexed": false }
+        ],
+        "anonymous": false
+      },
+      "Transfer": {
+        "name": "Transfer",
+        "inputs": [
+          { "name": "", "kind": "Address", "indexed": false },
+          { "name": "", "kind": "Address", "indexed": false },
+          { "name": "", "kind": { "Uint": 256 }, "indexed": false }
+        ],
+        "anonymous": false
+      }
+    },
+    "errors": {
+      "ErrOnlyOwner": { "name": "ErrOnlyOwner", "inputs": [] },
+      "ErrInvalidToken": { "name": "ErrInvalidToken", "inputs": [] },
+      "ErrInvalidRecipient": { "name": "ErrInvalidRecipient", "inputs": [] },
+      "Error": {
+        "name": "Error",
+        "inputs": [{ "name": "", "kind": "String", "internal_type": null }]
+      },
+      "ErrAlreadyClaimed": { "name": "ErrAlreadyClaimed", "inputs": [] },
+      "ErrUnsafeRecipient": { "name": "ErrUnsafeRecipient", "inputs": [] },
+      "ErrNotMinted": { "name": "ErrNotMinted", "inputs": [] },
+      "ErrWrongFrom": { "name": "ErrWrongFrom", "inputs": [] },
+      "ErrInvalidProof": { "name": "ErrInvalidProof", "inputs": [] },
+      "ErrAlreadyMinted": { "name": "ErrAlreadyMinted", "inputs": [] },
+      "Panic": {
+        "name": "Panic",
+        "inputs": [
+          { "name": "", "kind": { "Uint": 256 }, "internal_type": null }
+        ]
+      },
+      "ErrNoMoreUwU": { "name": "ErrNoMoreUwU", "inputs": [] },
+      "ErrUnauthorized": { "name": "ErrUnauthorized", "inputs": [] },
+      "ErrNonPayable": { "name": "ErrNonPayable", "inputs": [] },
+      "ErrWrongSalt": { "name": "ErrWrongSalt", "inputs": [] }
+    },
+    "receive": false,
+    "fallback": false
+  },
+  {
+    "type": "event",
+    "name": "Approval",
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "approved",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "tokenId",
+        "type": "uint256",
+        "indexed": true,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "ApprovalForAll",
+    "inputs": [
+      {
+        "name": "owner",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "operator",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "approved",
+        "type": "bool",
+        "indexed": false,
+        "internalType": "bool"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "OwnershipTransferred",
+    "inputs": [
+      {
+        "name": "previousOwner",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "newOwner",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "Transfer",
+    "inputs": [
+      {
+        "name": "from",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "to",
+        "type": "address",
+        "indexed": true,
+        "internalType": "address"
+      },
+      {
+        "name": "tokenId",
+        "type": "uint256",
+        "indexed": true,
+        "internalType": "uint256"
+      }
+    ],
+    "anonymous": false
+  }
+]
