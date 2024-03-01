@@ -1,6 +1,6 @@
 specVersion: 0.0.5
 schema:
-  file: ./schema.graphql
+  file: schema.graphql
 dataSources:
   - kind: ethereum
     name: Huffplug
@@ -14,11 +14,11 @@ dataSources:
       apiVersion: 0.0.7
       language: wasm/assemblyscript
       entities:
-        - Huffplug
+        - Buttplug
       abis:
         - name: Huffplug
-          file: ./abis/Huffplug.json
+          file: Huffplug/abis/Huffplug.json
       eventHandlers:
         - event: Transfer(address,address,uint256)
           handler: handleTransfer
-      file: ./src/huffplug.ts
+      file: Huffplug/Huffplug.wasm
