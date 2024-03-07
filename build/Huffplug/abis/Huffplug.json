@@ -28,17 +28,17 @@
     "inputs": [
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       },
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       },
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       }
     ],
@@ -58,7 +58,7 @@
     "outputs": [
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       }
     ],
@@ -70,7 +70,7 @@
     "inputs": [
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       }
     ],
@@ -83,19 +83,19 @@
     "inputs": [
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       },
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       }
     ],
     "outputs": [
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       }
     ],
@@ -140,7 +140,7 @@
     "outputs": [
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       }
     ],
@@ -152,7 +152,7 @@
     "inputs": [
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       }
     ],
@@ -208,19 +208,19 @@
     "inputs": [
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       },
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       }
     ],
     "outputs": [
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       }
     ],
@@ -232,19 +232,19 @@
     "inputs": [
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       },
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       }
     ],
     "outputs": [
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       }
     ],
@@ -261,7 +261,7 @@
       },
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       }
     ],
@@ -274,7 +274,7 @@
     "inputs": [
       {
         "name": "",
-        "type": "bytes32[]",
+        "type": "bytes32",
         "internalType": "bytes32"
       }
     ],
@@ -313,7 +313,7 @@
     "inputs": [
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       }
     ],
@@ -342,13 +342,13 @@
       },
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       },
       {
         "name": "",
         "type": "bytes",
-        "internalType": null
+        "internalType": "bytes"
       }
     ],
     "outputs": [],
@@ -362,7 +362,7 @@
       {
         "name": "",
         "type": "bytes32",
-        "internalType": null
+        "internalType": "bytes32"
       }
     ],
     "stateMutability": "view"
@@ -430,14 +430,14 @@
     "inputs": [
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       }
     ],
     "outputs": [
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       }
     ],
@@ -481,7 +481,7 @@
     "inputs": [
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       }
     ],
@@ -501,7 +501,7 @@
     "outputs": [
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       }
     ],
@@ -514,7 +514,7 @@
     "outputs": [
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       }
     ],
@@ -531,7 +531,7 @@
       },
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       }
     ],
@@ -554,7 +554,7 @@
       },
       {
         "name": "",
-        "type": "address",
+        "type": "uint256",
         "internalType": "uint256"
       }
     ],

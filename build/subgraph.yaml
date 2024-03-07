@@ -14,7 +14,7 @@ dataSources:
       apiVersion: 0.0.7
       language: wasm/assemblyscript
       entities:
-        - Buttplug
+        - Huffplug
       abis:
         - name: Huffplug
           file: Huffplug/abis/Huffplug.json

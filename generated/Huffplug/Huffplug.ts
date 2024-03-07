@@ -516,8 +516,8 @@ export class ApproveCall__Inputs {
     return this._call.inputValues[0].value.toAddress();
   }
 
-  get value1(): BigInt {
-    return this._call.inputValues[1].value.toBigInt();
+  get value1(): Address {
+    return this._call.inputValues[1].value.toAddress();
   }
 }
 
@@ -674,8 +674,8 @@ export class MintWithMerkleCall__Inputs {
     this._call = call;
   }
 
-  get value0(): Array<Bytes> {
-    return this._call.inputValues[0].value.toBytesArray();
+  get value0(): Bytes {
+    return this._call.inputValues[0].value.toBytes();
   }
 }
 
